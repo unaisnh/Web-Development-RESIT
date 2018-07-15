@@ -1,0 +1,142 @@
+body {/* set the property for the body such as background color padding etc*/ 
+	position: relative;
+	margin: 0;
+	padding-bottom: 8rem;
+	padding-left:auto;
+	min-height: 100%;
+    background-color: #667B7F;
+}
+/* set the property for <h1> tag*/ 
+h1 {
+	font-family: Roboto
+    color: white;
+    text-align: left;
+}
+/* set the property for <h2> tag*/ 
+h2 {
+	font-family: Roboto
+    color: white;
+    text-align: left;
+}
+/* will create the columns for the cv.html page */ 
+* {
+    box-sizing: border-box;
+}
+/* Size of the entire both columns */ 
+.column {
+    float: left;
+    padding: 10px;
+    height: 500px;
+}
+/* Size of the left column */ 
+.left {
+  width: 35%;
+}
+/* Size of the right column */ 
+.right {
+  width: 65%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imagetextc {/* will make text appear on the top image */ 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imagetext {/* will set the property of the text on the image */ 
+	font-family: Robota;
+	font-size: 40px;
+    font-size: 3.5vw;
+	color: Black;
+	  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+/* This is the code for the navigation bar */ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* make the animation while hovering */ 
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* background color for homepage navigation button */ 
+.active {
+    background-color: #AF504C;
+}
+/* sets property of the image in the social.html */ 
+.simage {
+  padding-left: 15px;
+  opacity: 1;
+  width: Auto;
+  height: 90px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.simage:hover {/* hover animation for the image in  social.html */ 
+  opacity: 0.3;
+  background-color: green;
+}
+/* sets property for image in the footer */ 
+.image {
+  opacity: 1;
+  width: Auto;
+  height: 45px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+/* animation for the image in the footer */ 
+.image:hover {
+  opacity: 0.3;
+}
+/* sets the property for the main content in index.html*/ 
+.main {
+    background-color: #7f666f;
+    padding: 15px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* settings for the footer */ 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #6f7f66;
+   color: white;
+   text-align: left;
+}
